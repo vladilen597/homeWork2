@@ -1,0 +1,33 @@
+.RGBblock{
+	margin: auto;
+	border: solid 8px;
+	width: 900px;
+	height: 900px;
+	position: relative;
+}
+
+.greenBlock{
+	height: 600px;
+	width: 600px;
+	background: #00ff00;
+	position: relative;
+	z-index: 3;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.redBlock{
+	height: 600px;
+	width: 600px;
+	background: red;
+	position: absolute;
+}
+
+.blueBlock{
+	height: 600px;
+	width: 600px;
+	background: blue;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
